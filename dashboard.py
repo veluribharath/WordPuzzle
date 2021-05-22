@@ -3,7 +3,7 @@ from dict_words import get_dictionary_words
 
 st.title('Word Puzzle')
 
-text_input = st.text_input("Enter your letters/word!")
+text_input = st.text_input("Enter your letters/word!", "Mummy")
 
 text_input = text_input.lower().strip()
 

@@ -1,6 +1,8 @@
+import os
 import json
 from itertools import permutations
-with open('words_dictionary.json') as file:
+
+with open(os.getcwd()+'/words_dictionary.json') as file:
     eng_dictionary = json.load(file)
 
 def get_dictionary_words(word):
